@@ -1,0 +1,17 @@
+{
+    "id": "6443c88211a7628b94abfe4f",
+    "name": "Trigger-0",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 0 * * 1",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getClient"
+            }
+        }
+    }
+}

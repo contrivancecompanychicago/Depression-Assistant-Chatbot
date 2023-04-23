@@ -1,0 +1,9 @@
+{
+    "app_id": "hysteriaptrance-ppsqn",
+    "config_version": 20210101,
+    "name": "HysteriaPTRANCE",
+    "location": "US-VA",
+    "provider_region": "gcp-us-central1",
+    "deployment_model": "LOCAL",
+    "environment": "development"
+}

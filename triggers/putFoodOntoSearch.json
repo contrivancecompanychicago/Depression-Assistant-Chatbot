@@ -1,0 +1,17 @@
+{
+    "id": "6443c93ef57ba99cb4fb74a2",
+    "name": "putFoodOntoSearch",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */2 * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "getFoodOntoSearch"
+            }
+        }
+    }
+}
